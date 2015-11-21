@@ -96,8 +96,12 @@ server.listen(3000);
 
   Optionally, the first or second argument (see below) of the `Server`
   constructor can be an options object.
+  
+  선택적으로, 처음 또는 두번째 `server`구성자의 아규먼트는 옵션 오브젝트가 될 수 있다.
 
   The following options are supported:
+
+아래의 옵션들이 지원된다.
 
   - `serveClient` sets the value for Server#serveClient()
   - `path` sets the value for Server#path()
@@ -106,6 +110,7 @@ server.listen(3000);
   the `engine.io` `Server` that gets created. See engine.io
   [options](https://github.com/learnboost/engine.io#methods-1)
   as reference.
+
 
 
 
