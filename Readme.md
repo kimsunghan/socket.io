@@ -71,10 +71,19 @@ server.listen(3000);
 ### Server
 
   Exposed by `require('socket.io')`.
+  
+  노출된다 require('socket.io')로 
+  
 
 ### Server()
 
   Creates a new `Server`. Works with and without `new`:
+  
+  새로운 `Server` 생성들
+  
+  `new`를 사용한 방법과 사용하지않는 방법
+  
+ 
 
   ```js
   var io = require('socket.io')();
@@ -97,6 +106,8 @@ server.listen(3000);
   the `engine.io` `Server` that gets created. See engine.io
   [options](https://github.com/learnboost/engine.io#methods-1)
   as reference.
+
+
 
 ### Server(srv:http#Server, opts:Object)
 
