@@ -79,9 +79,9 @@ server.listen(3000);
 
   Creates a new `Server`. Works with and without `new`:
   
-  새로운 `Server` 생성들
+  새로운 `Server` 생성한다.
   
-  `new`를 사용한 방법과 사용하지않는 방법
+  `new`를 사용해서 작동하고 사용하지 않고도 작동한다.
   
  
 
@@ -101,17 +101,19 @@ server.listen(3000);
 
   The following options are supported:
 
-아래의 옵션들이 지원된다.
+   아래의 옵션들이 지원된다.
 
   - `serveClient` sets the value for Server#serveClient()
   - `path` sets the value for Server#path()
+  -  `serverClient`는 Server#serveClient()를 위한 값으로 설정한다.
+  -  `path`는 Server#path()를 위한 값으로 설정한다.
 
   The same options passed to socket.io are always passed to
   the `engine.io` `Server` that gets created. See engine.io
   [options](https://github.com/learnboost/engine.io#methods-1)
   as reference.
 
-
+몇몇 옵션들은 항상 `engine.io` `Server`가 만들어진  를 지난 socket.io를  
 
 
 ### Server(srv:http#Server, opts:Object)
