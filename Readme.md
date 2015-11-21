@@ -8,8 +8,12 @@
 
 ## How to use
 
+
 The following example attaches socket.io to a plain Node.JS
 HTTP server listening on port `3000`.
+
+따라오는 예제는 socket.io를 plain 한 node.JS에 붙인다. 
+node.JS는 HTTP 서버를 포트 '3000'에 리스닝한것이다.  
 
 ```js
 var server = require('http').createServer();
@@ -35,6 +39,8 @@ Starting with **3.0**, express applications have become request handler
 functions that you pass to `http` or `http` `Server` instances. You need
 to pass the `Server` to `socket.io`, and not the express application
 function.
+
+3.0 express로 할땐 handler functions 들을 요청하게된다. 그건 니가 `http` 또는 `http` `Server` 인스턴스를 지난다. 너는 `Server`에서 `socket.io`로 넘어가는 것이 필요하다. 그리고 그건 express function이 아니다.
 
 ```js
 var app = require('express')();
