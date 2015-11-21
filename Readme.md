@@ -55,6 +55,8 @@ server.listen(3000);
 Like Express.JS, Koa works by exposing an application as a request
 handler function, but only by calling the `callback` method.
 
+
+express.js 처럼 Koa도 작동한다 어플리케이션이 노출됨으로써 , 요청 핸들러 펑션이, 그러나 단지 `callback`메서드를 부름으로 써.
 ```js
 var app = require('koa')();
 var server = require('http').createServer(app.callback());
