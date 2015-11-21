@@ -113,7 +113,9 @@ server.listen(3000);
   [options](https://github.com/learnboost/engine.io#methods-1)
   as reference.
 
-몇몇 옵션들은 항상 `engine.io` `Server`가 만들어진  를 지난 socket.io를  
+같은 옵션들은 항상  `Server`가 만들어진 `engine.io`  를 지난 socket.io를  통과한다.
+ engine.io를봐라.  [options](https://github.com/learnboost/engine.io#methods-1)
+ 
 
 
 ### Server(srv:http#Server, opts:Object)
